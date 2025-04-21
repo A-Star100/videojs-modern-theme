@@ -1,0 +1,90 @@
+<!DOCTYPE HTML>
+<head>
+    <title>videojs-modern-theme example</title>
+    <script src="https://vjs.zencdn.net/8.21.1/video.min.js"></script>
+    <link href="https://vjs.zencdn.net/8.21.1/video-js.css" rel="stylesheet" />
+    <style>
+    html, body {margin: 0; height: 100%;}
+    </style>
+</head>
+<body>
+
+    <style>       
+        body {
+            font-family: Arial, sans-serif;
+            background-color: black;
+        }
+        .video-js {
+            width: 88vw;
+            height: 100vh;
+            font-family: Arial, sans-serif;
+  font-size: inherit;
+  background: inherit;
+  border: none;
+  box-shadow: none;
+        }
+        .video-js .vjs-control-bar {
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+}
+
+.video-js .vjs-play-control,
+.video-js .vjs-volume-panel,
+.video-js .vjs-current-time-display,
+.video-js .vjs-time-divider,
+.video-js .vjs-duration-display,
+.video-js .vjs-fullscreen-control {
+  color: inherit;
+}
+
+/* Play button style */
+.video-js .vjs-big-play-button {
+  border: none;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* Remove logo if using one */
+.video-js .vjs-control-bar {
+  display: flex;
+}
+        
+        #player-area {
+            display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  margin-bottom: 3px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+        }
+        #vjs-no-js {
+            z-index: 9999;
+        }
+   </style>
+</head>
+
+<body>
+<div id="player-area">
+  <video
+    id="my-video"
+    class="video-js vjs-theme-forest"
+    controls
+    preload="auto"
+    width="1280"
+    height="720"
+    data-setup='{}'
+    autoplay
+    src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+  >
+  </video>
+</div>
+
+<script>
+window.onload = function () {
+      window.scrollTo(0, document.body.scrollHeight);
+};
+</script>
+
+</body>
+</html>
