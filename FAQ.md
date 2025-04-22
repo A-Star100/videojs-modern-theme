@@ -2,7 +2,7 @@
 
 - **Can I use this theme in conjunction with another?**
   
-  Yes! This theme works best in conjunction with the Forest theme. The other themes sometimes have visual errors in conjunction with this one.
+  Yes! This theme works best in conjunction with the Forest theme. The other themes sometimes have visual errors.
 
 - **Does this theme still work with older versions of Video.js?**
   
