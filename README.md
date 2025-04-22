@@ -3,4 +3,4 @@ An unofficial custom theme for Video.js that adds a sleek and modern feel to Vid
 
 **Compatible with Video.js 8+**
 
-[!image](https://github.com/A-Star100/videojs-modern-theme/blob/main/data/example.png?raw=true)
+[!image](https://raw.githubusercontent.com/A-Star100/videojs-modern-theme/refs/heads/main/data/example.png)
