@@ -1,26 +1,26 @@
-.vjs-modern.video-js {
+.vjs-theme-modern.video-js {
 font-size: inherit;
 background: inherit;
 border: none;
 box-shadow: none;
 }
 
-.vjs-modern .vjs-control-bar {
+.vjs-theme-modern .vjs-control-bar {
   background: rgba(0, 0, 0, 0.7);
   color: white;
 }
 
-.vjs-modern .vjs-play-control,
-.vjs-modern .vjs-volume-panel,
-.vjs-modern .vjs-current-time-display,
-.vjs-modern .vjs-time-divider,
-.vjs-modern .vjs-duration-display,
-.vjs-modern .vjs-fullscreen-control {
+.vjs-theme-modern .vjs-play-control,
+.vjs-theme-modern .vjs-volume-panel,
+.vjs-theme-modern .vjs-current-time-display,
+.vjs-theme-modern .vjs-time-divider,
+.vjs-theme-modern .vjs-duration-display,
+.vjs-theme-modern .vjs-fullscreen-control {
   color: inherit;
 }
 
 /* Play button style */
-.vjs-modern .vjs-big-play-button {
+.vjs-theme-modern .vjs-big-play-button {
   border: none;
   background-color: rgba(0, 0, 0, 0.7);
 }
