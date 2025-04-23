@@ -23,31 +23,32 @@
   border: none;
   box-shadow: none;
         }
-        .video-js .vjs-control-bar {
+
+.vjs-theme-modern .vjs-control-bar {
   background: rgba(0, 0, 0, 0.7);
   color: white;
 }
 
-.video-js .vjs-play-control,
-.video-js .vjs-volume-panel,
-.video-js .vjs-current-time-display,
-.video-js .vjs-time-divider,
-.video-js .vjs-duration-display,
-.video-js .vjs-fullscreen-control {
+.vjs-theme-modern .vjs-play-control,
+.vjs-theme-modern .vjs-volume-panel,
+.vjs-theme-modern .vjs-current-time-display,
+.vjs-theme-modern .vjs-time-divider,
+.vjs-theme-modern .vjs-duration-display,
+.vjs-theme-modern .vjs-fullscreen-control {
   color: inherit;
 }
 
 /* Play button style */
-.video-js .vjs-big-play-button {
+.vjs-theme-modern .vjs-big-play-button {
   border: none;
   background-color: rgba(0, 0, 0, 0.7);
 }
 
 /* Remove logo if using one */
-.video-js .vjs-control-bar {
+.vjs-theme-modern .vjs-control-bar {
   display: flex;
 }
-        
+  
         #player-area {
             display: block;
   margin-left: auto;
@@ -68,7 +69,7 @@
 <div id="player-area">
   <video
     id="my-video"
-    class="video-js vjs-theme-forest"
+    class="video-js vjs-theme-modern"
     controls
     preload="auto"
     width="1280"
