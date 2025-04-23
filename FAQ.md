@@ -6,6 +6,5 @@
 
 - **Does this theme still work with older versions of Video.js?**
   
-  Yes, but it isn't recommended because several bugs occur in those Video.js versions (that aren't the theme's fault), which affects its functionality,
-  and in versions Video.js 6 and older often breaks the UI.
+  Yes, but only in versions older than 1.1 before the theme got its own class added.
 
