@@ -2,9 +2,9 @@
 
 - **Can I use this theme in conjunction with another?**
   
-  Yes! This theme works best in conjunction with the Forest theme. The other themes sometimes have visual errors.
+    Yes, but only in versions older than 1.1 before the theme was programmed to work independently.
+    If you downgrade, v1.0 works best with the Forest theme, as other themes cause visual errors.
 
-- **Does this theme still work with older versions of Video.js?**
-  
-  Yes, but only in versions older than 1.1 before the theme got its own class added.
+- **Does this theme still work with versions of Video.js older than 8?**
 
+    Yes, but since those versions are so old, bugs occur that affect the theme's functionality.
