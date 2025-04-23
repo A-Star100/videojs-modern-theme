@@ -6,6 +6,6 @@
 
 - **Does this theme still work with older versions of Video.js?**
   
-  Yes, but many bugs not present when using Video.js 8 and newer occur with the theme in older versions. The theme still visually looks the same until Video.js 6 and below, where core visuals
-  start to break.
+  Yes, but it isn't recommended because several bugs occur in those Video.js versions (that aren't the theme's fault), which can affect its functionality,
+  and in versions Video.js 6 and older often breaks the UI.
 
